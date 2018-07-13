@@ -160,7 +160,7 @@ const USB_DEVICE_DESCRIPTOR device_dsc=
     0x00,                   // Protocol code
     USB_EP0_BUFF_SIZE,          // Max packet size for EP0, see usb_config.h
     0x1209,                 // Vendor ID
-    0x7777,                 // Product ID: Custom HID device demo
+    0x7877,                 // Product ID: Custom HID device demo
    (VERSION_MAJOR<<8 ) | (VERSION_MINOR ),                 // Device release number in BCD format firmware
     0x01,                   // Manufacturer string index
     0x02,                   // Product string index
@@ -231,14 +231,14 @@ sizeof(sd001),USB_DESCRIPTOR_STRING,
 //Product string descriptor
 const struct{uint8_t bLength;uint8_t bDscType;uint16_t string[12];}sd002={
 sizeof(sd002),USB_DESCRIPTOR_STRING,
-'C','V',' ','U','S','B',' ','I','O',' ','V','3' };
+'C','V',' ','U','S','B',' ','R','F','G','E','N' };
 
 volatile const uint16_t serial_number_flash  @ 0x16 = 0;
 
 //Product string descriptor
  struct{uint8_t bLength;uint8_t bDscType;uint16_t string[9];}sd003={
 sizeof(sd003),USB_DESCRIPTOR_STRING, 
-'U','I','O','V','3', 'X','X','X','X'};
+'C','V','R','F','G', 'X','X','X','X'};
 
 //Class specific descriptor - HID 
 const struct{uint8_t report[HID_RPT01_SIZE];}hid_rpt01={
