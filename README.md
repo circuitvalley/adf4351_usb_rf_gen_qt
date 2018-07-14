@@ -6,6 +6,8 @@ AD4351 USB PIC16F1459
     
     website: www.circuitvalley.com 
     
+    Project Page: https://www.circuitvalley.com/2018/07/diy-4ghz-rf-signal-generator-ad4351-usb-qt5-linux-3Ghz.html
+    
     Created on October 28, 2017
     
     Cross platform USB RF Signal Generator implemented with PIC16F1459 and Analog device AD4351 , PC Application in Qt.
