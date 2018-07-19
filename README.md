@@ -10,7 +10,7 @@ AD4351 USB PIC16F1459
     
     Created on October 28, 2017
     
-    Cross platform USB RF Signal Generator implemented with PIC16F1459 and Analog device AD4351 , PC Application in Qt.
+    Cross platform USB RF Signal Generator implemented with PIC16F1459 and Analog device AD4351, PC Application in Qt.
 
     Cross platform USB RF Signal Generator implemented with PIC16F1459 and Analog device AD4351 is free software: 
     you can redistribute it and/or modify
