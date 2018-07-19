@@ -24,4 +24,6 @@ AD4351 USB PIC16F1459
 
     You should have received a copy of the GNU General Public License
     along with Cross platform USB RF Signal Generator implemented with PIC16F1459 and Analog device AD4351.  If not, see <http://www.gnu.org/licenses/>.
+    
+https://www.circuitvalley.com/2018/07/diy-4ghz-rf-signal-generator-ad4351-usb-qt5-linux-3Ghz.html
 *******************************************************************************/
